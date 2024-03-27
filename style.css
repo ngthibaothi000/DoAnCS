@@ -24,10 +24,10 @@ body {
 }
 
 .logo {
-    background: rgba(50, 41, 41, 0.05);
+    background: rgba(109, 92, 92, 0.671);
     float: left;
     height: 100%;
-    padding-inline: 90px;
+    padding-inline: 30px;
 }
 
 
@@ -58,10 +58,23 @@ main.header {
 
 .logo img {
     height: 100%;
-    width: auto;
+    width: 155px;
 }
 
 .Menu-main {
     float: left;
-    
+    height: 100%;
+    width: 560px
+}
+
+.menu1,
+.menu2,
+.menu3,
+.menu4,
+.menu5 {
+    float: left;
+    height: 100%;
+    list-style-type: none;
+    width: 108px;
+    border: 1px solid green;
 }
